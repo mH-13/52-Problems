@@ -4,7 +4,7 @@ int main(){
     scanf("%d", &n);
     for(i=1; i<=n; i++){
         scanf("%d", &num);
-        printf("Case 1:\t");
+        printf("Case %d:\t", i);
         for(int j=1;j<=num; j++){
             if(num%j==0){
                 printf("%d ", j);
